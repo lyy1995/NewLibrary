@@ -224,7 +224,7 @@ h2.page_title span{
 font-size:12px;
 font-weight:700;
 letter-spacing:0.5px;
-background-color:#0be0af;
+background-color:#6CA6CD;
 padding:5px;
 margin:0 0 0 5px;
 }
@@ -247,7 +247,7 @@ line-height:25px;
 font-weight:300;
 padding:10px 0 10px 5%;
 margin:0px 0 15px 0;
-background-color:#0be0af;
+background-color:#6CA6CD;
 display:inline-block;
 letter-spacing:-0.5px;
 }
@@ -282,7 +282,7 @@ font-weight:900;
 color:#ffffff;
 }
 .logo_text a span{ 
-color:#0be0af;
+color:#6CA6CD;
 }
 .logo_image a img{ 
 display:inline-block;
@@ -326,7 +326,7 @@ right:0;
 font-size:10px;
 width:15px;
 height:15px;
-background-color:#0abb85;
+background-color:#ADD8E6;
 color:#fff;
 -webkit-border-radius:50%; 
 -moz-border-radius:50%;  
@@ -343,7 +343,7 @@ max-width:55%;
 padding:12px 0 0 0;
 }
 .navbarpages.navbarpagesbg{
-background-color:#0abb85;	
+background-color:#ADD8E6;
 }
 /*===============================================*/
 /* 5. CUSTOM BUTTONS */
@@ -357,7 +357,7 @@ font-size:18px;
 text-align:center;
 }
 a.button_small{
-background-color:#0be0af; 
+background-color:#6CA6CD;
 display:inline-block;
 color:#222222; 
 padding:10px 20px;
@@ -393,7 +393,7 @@ cursor: pointer;
 background-color:#f7f7f7;
 }
 .button.active {
-background: #0be0af;
+background: #6CA6CD;
 color: #222222;
 }
 .buttons-row .button:first-child {
@@ -404,7 +404,7 @@ color: #222222;
 	border-radius: 0px 0px 0px 0px;
 }
 .btyellow{
-background-color:#0be0af;
+background-color:#6CA6CD;
 color:#222222; 
 }
 .btmint{
@@ -433,10 +433,10 @@ transition-duration: 400ms;
 color:#222222;
 }
 .panel-left, .pagepanel{
-background-color:#0abb85;
+background-color:#ADD8E6;
 }
 .panel-right{
-background-color:#0abb85;
+background-color:#ADD8E6;
 }
 
 /* 6-1. USER ACCOUNT SIDEBAR RIGHT */
@@ -506,7 +506,7 @@ padding:5px 0 10px 0;
 margin:0 0 0 5%;
 display:inline-block;
 text-align:center;
-border-bottom:1px #26d59f solid;
+border-bottom:1px #0099cc solid;
 }
 .user-nav ul li img{
 display:inline-block;
@@ -530,7 +530,7 @@ line-height:30px;
 text-align:center;
 -webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;
 background-color:#eaca02;
-color:#0abb85;
+color:#ADD8E6;
 }
 .user-nav ul li a{
 font-size:14px;
@@ -563,7 +563,7 @@ display:block;
 float:left;
 clear:both;
 text-align:left;
-border-bottom:1px #26d59f solid;
+border-bottom:1px #0099cc solid;
 }
 .main_nav_underline ul li.subnav{
 background:url(images/subnav_white.png) no-repeat right top;
@@ -613,8 +613,8 @@ padding:25px 2%;
 display:inline-block;
 float:left;
 text-align:center;
-border-bottom:1px #26d59f solid;
-border-right:1px #26d59f solid;
+border-bottom:1px #0099cc solid;
+border-right:1px #0099cc solid;
 }
 .main_nav_icons_inline_2 ul li:nth-child(2n) {
 border-right:none;
@@ -663,8 +663,8 @@ padding:15px 0;
 display:inline-block;
 float:left;
 text-align:center;
-border-bottom:1px #26d59f solid;
-border-right:1px #26d59f solid;
+border-bottom:1px #0099cc solid;
+border-right:1px #0099cc solid;
 }
 .main_nav_icons_inline_3 ul li:nth-child(3n) {
 border-right:none;
@@ -726,7 +726,7 @@ padding:5px 0 0 20px;
 /* 7. PAGES LAYOUT GENERAL */
 /*===============================================*/	
 .homepage{
-background-color:#0abb85;
+background-color:#ADD8E6;
 }
 #pages_maincontent{
 width:100%;
@@ -778,7 +778,7 @@ right:0px;
 overflow: hidden;
 z-index: 999999;
 height:60px;
-background-color:#0be0af;	
+background-color:#6CA6CD;
 width:20%;
 }
 .bottom_menu_open a{
@@ -901,7 +901,7 @@ font-size:12px;
 padding:5px;
 font-weight:300;
 color:#fff;
-background-color:#0abb85;
+background-color:#ADD8E6;
 display:inline;
 } 
 .slider-caption p{
@@ -938,11 +938,11 @@ width: 95%;
 }
 .swiper-container .swiper-pagination-bullet-active {
 opacity: 1;
- border:1px solid #0abb85;
+ border:1px solid #ADD8E6;
 }
 .swiper-container-pages .swiper-pagination-bullet-active {
 opacity: 1;
-background: #0abb85;
+background: #ADD8E6;
 }
 .swiper-pagination-toolbar{
 position: absolute;
@@ -986,14 +986,14 @@ background: #000;
 	-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
 }
 .swiper-button-next{
-	background:url(images/nav-next.png) no-repeat center #0abb85; 
+	background:url(images/nav-next.png) no-repeat center #ADD8E6;
 	width: 40px;
     height: 40px;
 	bottom:22%;
 	right:2.5%;
 }
 .swiper-button-prev{
-	background:url(images/nav-prev.png) no-repeat center #0abb85; 
+	background:url(images/nav-prev.png) no-repeat center #ADD8E6;
 	width: 40px;
     height: 40px;
 	bottom:22%;
@@ -1117,7 +1117,7 @@ display:block;
 font-weight:300;
 font-size:14px;
 letter-spacing:0.5px;
-background-color:#0be0af;
+background-color:#6CA6CD;
 padding:10px 0;
 }
 ul.team_socials{
@@ -1189,7 +1189,7 @@ line-height:40px;
 }
 ul.music_list li h4 span{
 font-weight:700;
-background-color:#0be0af;
+background-color:#6CA6CD;
 display:inline-block;
 padding:5px 10px;
 float:right;
@@ -1339,7 +1339,7 @@ ul.shop_items li a#addtocart{
 width:50%;
 float:right;
 color:#222222;
-background-color:#0be0af;
+background-color:#6CA6CD;
 display:inline-block;
 padding:10px 0;
 text-align:center;
@@ -1431,7 +1431,7 @@ font-size:14px;
 font-weight:300;
 text-align:center;
 padding:0;
-background-color:#0be0af;
+background-color:#6CA6CD;
 }
 .shop_item a.shopfav{
 position:absolute;
@@ -1476,7 +1476,7 @@ border:1px #ebebeb solid;
 color:#375a70;
 }
 .size_selectors input[type=radio]:checked + label {
-background-color:#0be0af;
+background-color:#6CA6CD;
 }
 .color_selectors{
 width:100%;
@@ -1556,7 +1556,7 @@ text-align:center;
 padding:5px 0;
 float:right;
 color:#222222;
-background-color:#0be0af;
+background-color:#6CA6CD;
 font-size:12px;
 font-weight:900;
 letter-spacing:0.5px;
@@ -1650,7 +1650,7 @@ float:left;
 clear:both;
 font-size:14px;
 font-weight:700;
-border-left:5px solid #0be0af;
+border-left:5px solid #6CA6CD;
 }
 .order_item{
 width:100%;
@@ -1784,7 +1784,7 @@ width:100%;
 height:80px;
 text-align:center;
 z-index:999;
-background-color:#0be0af;
+background-color:#6CA6CD;
 }
 .switch_button{
 display:block;
@@ -1874,7 +1874,7 @@ padding:10px 0;
 color:#2d2e3e;
 }
 .photo-categories a.active{
-background-color:#0be0af;
+background-color:#6CA6CD;
 }
 
 /*===============================================*/
@@ -1913,7 +1913,7 @@ color: #000;
 text-align:center;
 }
 .list-block .swipeout-actions-right a:nth-child(1){
-background:#0be0af;
+background:#6CA6CD;
 }
 .list-block .swipeout-actions-right a:nth-child(2){
 background:#21d3c5;
@@ -1997,7 +1997,7 @@ width:100%;
 margin:10px 0;
 padding:10px 0;
 text-align:center;
-background-color:#0be0af;
+background-color:#6CA6CD;
 color:#000000;
 font-size:20px;
 cursor:pointer;
@@ -2129,7 +2129,7 @@ color:#222222;
 border: none;
 cursor:pointer;
 -webkit-appearance: none;
- background-color:#0be0af;
+ background-color:#6CA6CD;
 }
 .forgot_pass{
 width:100%;
@@ -2272,7 +2272,7 @@ backface-visibility: hidden;
 	padding:0 5%;
 }
 .navbar, .toolbar, .subnavbar {
-    background: #0abb85;
+    background: #ADD8E6;
 }
 .navbar a.link, .toolbar a.link, .subnavbar a.link {
 	color:#fff;
@@ -2280,7 +2280,7 @@ backface-visibility: hidden;
 .picker-modal .toolbar {
     position: relative;
     width: 100%;
-    background: #0abb85;
+    background: #ADD8E6;
 }
 .picker-modal .toolbar a{
 	color:#fff;
@@ -2294,7 +2294,7 @@ backface-visibility: hidden;
     top: auto;
     height: 1px;
     width: 100%;
-    background-color: #0abb85;
+    background-color: #ADD8E6;
     display: block;
     z-index: 15;
     -webkit-transform-origin: 50% 100%;
@@ -2309,7 +2309,7 @@ backface-visibility: hidden;
     right: auto;
     height: 1px;
     width: 100%;
-    background-color: #0abb85;
+    background-color: #ADD8E6;
     display: block;
     z-index: 15;
     -webkit-transform-origin: 50% 0%;
@@ -2374,7 +2374,7 @@ font-weight:normal;
 text-align:center;
 cursor:pointer; 
 font-size:20px;
-background-color:#0be0af;
+background-color:#6CA6CD;
 color:#222222;
 border: none;
 cursor:pointer;
@@ -2500,11 +2500,11 @@ font-size:12px;
 -moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;
 }  
 ul.responsive_table li:first-child{
-background-color:#0be0af;
+background-color:#6CA6CD;
 color:#222222;
 }
 .message-sent .message-text {
-    background-color: #0be0af;
+    background-color: #6CA6CD;
 }
 /*===============================================*/
 /* 14. MEDIA QUERIES */
@@ -2882,7 +2882,7 @@ padding:15px 0 0 0;
 }
 .popup-title{
 	/* text-shadow: 5px 5px 5px rgb(41, 5, 243); */ 
-	-webkit-text-stroke: 1.5px #0abb85;  
+	-webkit-text-stroke: 1.5px #ADD8E6;
 	color:#ffffff;
 	font-size:35px;
 	font-weight:700;

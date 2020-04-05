@@ -288,11 +288,12 @@ $("#LoginForm").validate({
 		pending.show("正在登陆,请等待...(~.~)");
 		$.ajax({
 			url: "./API/account/login.php",
-			dataType: "json",
+			//dataType: "json",
 			data: formData,
 			type: "post",
 			async: true,
-			success: function (data) { 
+			success: function (data) {
+			    console.log(data);
 				pending.close();
 				if(data.error_code==0){
 					myApp.closeModal('.popup-login');

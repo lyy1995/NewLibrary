@@ -1,0 +1,136 @@
+<div class="pages">
+    <div data-page="books_list" class="page no-toolbar no-navbar">
+        <div class="page-content">
+            <div class="navbarpages navbarpagesbg">
+                <div class="navbar_left">
+                    <div class="logo_text"><a href="index.html">推荐列表</a></div>
+                </div>
+                <div class="navbar_right navbar_right_menu">
+                    <a href="#" data-panel="left" class="open-panel"><img src="images/icons/white/menu.png" alt=""
+                            title="" /></a>
+                </div>
+                <div class="navbar_right">
+                    <a href="#" data-panel="right" class="open-panel"><img src="images/icons/white/user.png" alt=""
+                            title="" /></a>
+                </div>
+            </div>
+
+            <div id="pages_maincontent">
+                <div id="books-list-div">
+                    <h2 class="page_title" >以下是为您个性化推荐的书目：
+                    </h2>
+                    <div class="page_single layout_fullwidth_padding">
+                        <ul class="shop_items">
+                            <li>
+                                <div class="shop_thumb" style="width:25%"><a href="#"> 
+                                    <img src="images/photos/photo6.jpg"/></a>
+                                    <!-- images/photos/photo1.jpg -->
+                                </div>
+                                <div class="shop_item_details">
+                                    <h4>机器学习：入门</h4>
+                                    <div class="">图灵</div>
+                                    <div >机械工业出版社 2018</div>
+                                    <div class="">896-00678-998</div>
+                                    <!-- <div v-text="book.summary"></div> -->
+                                    <b style="color:darkred;float:right">
+                                        <i><u>图书详情</u></i>
+                                    </b>
+                                    <b style="color:green"><div>可借1/3本</div></b>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="shop_thumb" style="width:25%"><a href="#">
+                                    <img src="images/photos/photo6.jpg"/></a>
+                                    <!-- images/photos/photo1.jpg -->
+                                </div>
+                                <div class="shop_item_details">
+                                    <h4>机器学习：精通</h4>
+                                    <div class="">图灵</div>
+                                    <div >机械工业出版社 2020</div>
+                                    <div class="">896-00678-912</div>
+                                    <!-- <div v-text="book.summary"></div> -->
+                                    <b style="color:darkred;float:right">
+                                        <i><u>图书详情</u></i>
+                                    </b>
+                                    <b style="color:green"><div>可借3/3本</div></b>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="shop_thumb" style="width:25%"><a href="#">
+                                    <img src="images/photos/photo2.jpg"/></a>
+                                    <!-- images/photos/photo1.jpg -->
+                                </div>
+                                <div class="shop_item_details">
+                                    <h4>Python：数据处理</h4>
+                                    <div class="">孟博</div>
+                                    <div >城市大学工业出版社 1997</div>
+                                    <div class="">896-00678-0207</div>
+                                    <!-- <div v-text="book.summary"></div> -->
+                                    <b style="color:darkred;float:right">
+                                        <i><u>图书详情</u></i>
+                                    </b>
+                                    <b style="color:green"><div>可借5/9本</div></b>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="shop_thumb" style="width:25%"><a href="#">
+                                    <img src="images/photos/photo4.jpg"/></a>
+                                    <!-- images/photos/photo1.jpg -->
+                                </div>
+                                <div class="shop_item_details">
+                                    <h4>机器学习：精通</h4>
+                                    <div class="">图灵</div>
+                                    <div >机械工业出版社 2019</div>
+                                    <div class="">896-00678-938</div>
+                                    <!-- <div v-text="book.summary"></div> -->
+                                    <b style="color:darkred;float:right">
+                                        <i><u>图书详情</u></i>
+                                    </b>
+                                    <b style="color:green"><div>可借1/3本</div></b>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="shop_thumb" style="width:25%"><a href="#">
+                                    <img src="images/photos/photo5.jpg"/></a>
+                                    <!-- images/photos/photo1.jpg -->
+                                </div>
+                                <div class="shop_item_details">
+                                    <h4>微服务入门</h4>
+                                    <div class="">Spring Boot</div>
+                                    <div >机械工业出版社 2002</div>
+                                    <div class="">896-00678-118</div>
+                                    <!-- <div v-text="book.summary"></div> -->
+                                    <b style="color:darkred;float:right">
+                                        <i><u>图书详情</u></i>
+                                    </b>
+                                    <b style="color:green"><div>可借1/6本</div></b>
+
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="shop_pagination">
+                            <a href="#" v-on:click="goto_page(1)" class="prev_shop">第一页</a>
+                            <a href="#" v-on:click="prev_page" class="prev_shop">上一页</a>
+                            <span class="shop_pagenr" v-text="`${page_id}/${total_pages}`"></span>
+                            <a href="#" v-on:click="goto_page(total_pages)" class="next_shop">最后一页</a>
+                            <a href="#" v-on:click="next_page" class="next_shop">下一页</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

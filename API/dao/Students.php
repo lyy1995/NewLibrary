@@ -26,7 +26,7 @@ Class Students extends Base{
         //die($ret); 
         if ($ret!=""){//count($ret)>0){
             return array("error_code"=>0,
-                         "data" => array("student" => $ret["name"])
+                         "data" => $ret
                         );
         }else  
             return array("error_code"=>-2,
@@ -44,13 +44,9 @@ Class Students extends Base{
         $ret = $this->loginFromDB($sid,$pwd);
         //$ret = $this->loginFromDB($sid,$pwd);
         if ($ret["error_code"]==0){ //成功
-            // 如果用户已经存在，更新密码，否则添加用户
-            if (!$this->stuExistInDB($sid))
-                $this->register($sid,$pwd,$ret["data"]["student"]);
-            else
-                $this->updatePwd($sid,$pwd); 
+            return $ret["error_code"];
         }else{
-            $this->error_msg=$ret["data"]; 
+            $this->error_msg=$ret["data"];
         }
         return $ret["error_code"];
     }

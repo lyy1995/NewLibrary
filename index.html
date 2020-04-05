@@ -50,10 +50,13 @@
                                 <li><a href="return-book.html" class="close-panel" data-view=".view-main"><img
                                             src="images/icons/white/相机（1）.png" alt="" title="" /><span>拍照还书</span></a>
                                 </li>
-                                <li><a href="#" data-popup=".popup-loading" class="open-popup close-panel"><img src="images/icons/white/推荐.png" alt="" title="" />
-<!--                                    <span class="superscript01">3</span>-->
-                                    <span>推荐列表</span>
-                                </a></li>
+<!--                                <li><a href="#" data-popup=".popup-loading" class="open-popup close-panel"><img src="images/icons/white/推荐.png" alt="" title="" />-->
+<!--&lt;!&ndash;                                    <span class="superscript01">3</span>&ndash;&gt;-->
+<!--                                    <span>推荐列表</span>-->
+<!--                                </a></li>-->
+                                <li><a href="recommend_list.html" class="close-panel" data-view=".view-main"><img
+                                        src="images/icons/white/推荐.png" alt="" title="" /><span>推荐列表</span></a>
+                                </li>
 
                                 <!--<li><a href="#" data-popup=".popup-login" class="open-popup close-panel"><img src="images/icons/white/我的.png" alt="" title="" /><span>待定</span></a></li>-->
                                 <!--<li><a href="#" data-popup=".popup-login" class="open-popup close-panel"><img src="images/icons/white/我的.png" alt="" title="" /><span>待定</span></a></li>-->
@@ -284,7 +287,7 @@
                     <li v-for="book in g_data.not_returned_books">
                         <div style="width:15%" class="shop_thumb">
                             <a href="#">
-                                <img v-bind:src="book.picture"  onerror="image_not_found(this)"/>
+                                <img src="images/photos/photo5.jpg"/></a>
                             </a>
                         </div>
                         <div style="width:80%;text-align: left" class="shop_item_details">
@@ -326,7 +329,7 @@
 
                     <li v-for="b in g_data.donation_books.waiting">
                         <div class="shop_thumb" style="width: 20%;"><a href="#">
-                            <img v-bind:src="b.picture"  onerror="image_not_found(this)"/></a></div>
+                            <img src="images/photos/photo5.jpg"/></a></div>
                         <div class="shop_item_details" style="width: 75%; text-align: left;">
                             <div><b>${b.title}</b> <i>(${b.author})</i></div>
                             <div>${b.publisher}&nbsp; (${b.pubdate})</div>
@@ -340,7 +343,7 @@
                     </li>
                     <li v-for="b in g_data.donation_books.accepted">
                         <div class="shop_thumb" style="width: 20%;"><a href="#">
-                            <img v-bind:src="b.picture"  onerror="image_not_found(this)"/></a></div>
+                            <img src="images/photos/photo5.jpg"/></a></div>
                         <div class="shop_item_details" style="width: 75%; text-align: left;">
                             <div><b>${b.title}</b> <i>(${b.author})</i></div>
                             <div>${b.publisher}&nbsp; (${b.pubdate})</div>

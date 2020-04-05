@@ -5,7 +5,7 @@ require_once(DIR_DAO."Students.php");
 function main(){ 
     // 参数读取
     try{
-        $sid = Utils::getParamWithFilter("sid","digit");
+        $sid = Utils::getParamWithFilter("sid");
         $pwd = Utils::getParamWithFilter("pwd");
     } catch (Exception $e) {
         Utils::exit(-2,$e->getMessage());

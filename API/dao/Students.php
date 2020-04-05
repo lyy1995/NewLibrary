@@ -41,7 +41,7 @@ Class Students extends Base{
     }
     //(*) 登陆,成功返回0，失败返回失败代码。 -3表示需要输入验证码，其他表示用户名密码有误
     public function login($sid,$pwd){
-        $ret = $this->loginFromXMU($sid,$pwd);
+        $ret = $this->loginFromDB($sid,$pwd);
         //$ret = $this->loginFromDB($sid,$pwd);
         if ($ret["error_code"]==0){ //成功
             // 如果用户已经存在，更新密码，否则添加用户

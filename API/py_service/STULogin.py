@@ -122,7 +122,8 @@ class STULogin:
 
 
 if __name__ == "__main__":
-    stu=STULogin("23020161153315", "159147")
+    stu=STULogin("23020171153044", "181325")
+    # stu=STULogin("23020161153315", "159147")
     if stu.needCaptcha():
         stu.reloadCaptcha()
         captcha = input("输入验证码")

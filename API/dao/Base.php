@@ -54,7 +54,7 @@
         $sql=sprintf(...$args);
         return $sql;
     }
-    // 如：createSQLAndRun("select * from stu where id=%s and name='%s'",1,"cjf")
+    // 如：createSQLAndRun("select * from stu where id=%s and name='%s'",1,"LIUYuying")
     // 创建并执行sql. 自动会对所有参数执行escape操作。
     public function createSQLAndRun(){ 
         $sql=self::createSQL(...func_get_args());   

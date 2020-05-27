@@ -14,12 +14,14 @@ class Utils
         $config_file = DIR_API."config.json";
         $f=fopen($config_file,"r");
         $config= json_decode(fread($f,99999),true);
+
         // 字符串替换，将${DIR_API} 替换成真实地址DIR_API。仅支持一层递归
         foreach($config as $key=>$val){
             if (is_string($val)){
                 $config[$key] = str_ireplace('${DIR_API}',DIR_API,$val,$count);
             }
         }
+
         self::$g_config = $config;
     }
     static function init(){ // 全局初始化函数 

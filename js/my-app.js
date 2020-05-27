@@ -246,7 +246,7 @@ var $$ = Dom7;
 myApp.onPageBeforeInit('home', function(page){ 
 })
 myApp.onPageInit('home', function(page) {
-	console.log("By ChenJianfeng@XMU,2019.For any questions you can contact me at 352871242@qq.com");
+	console.log("By LIUYuying@XMU,2020.For any questions you can contact me at 447246534@qq.com");
 	index_init();
 }).trigger(); //And trigger it right away 
 
@@ -299,14 +299,15 @@ $("#LoginForm").validate({
 					myApp.closeModal('.popup-login');
 					$("#login").attr("disabled",true);
 					location.reload();
-				}else
-				if(data.error_code==-3){
-					alert("需要输入验证码！请先前往 i.xmu.edu.cn 尝试登陆，登陆成功后再在此页面登陆。点击确定跳转过去。")
-					window.open("http://i.xmu.edu.cn"); 
-				}else
-				{
-					alert("用户名或密码错误");
-				}
+					}
+//				}else
+//				if(data.error_code==-3){
+//					alert("需要输入验证码！请先前往 i.xmu.edu.cn 尝试登陆，登陆成功后再在此页面登陆。点击确定跳转过去。")
+//					window.open("http://i.xmu.edu.cn");
+//				}else
+//				{
+//					alert("用户名或密码错误");
+//				}
 			},
 			error: function (xhr, textStatus) {
 				console.log('错误');
@@ -489,10 +490,10 @@ myApp.onPageInit('borrow_book', function (page) {
 						src = url.createObjectURL(file);
 					} else {
 						src = e.target.result;
-					}  
+					}
 					RecognizeBarCode(src,borrow_book_vue.cbAfterRecogBarcode);
 				});
-				dom_file.click();  
+				dom_file.click();
 			},
 			inputISBNbyHand:()=>{
 				borrow_book_vue.fetchBookInfo();

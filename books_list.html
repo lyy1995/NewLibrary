@@ -33,6 +33,7 @@
                                     <div v-text="book.author" class=""></div>
                                     <div v-text="`${book.publisher} ${book.pubdate}`"></div>
                                     <div v-text="'ISBN:'+book.isbn" class=""></div>
+                                    <div v-text="'索书号:'+book.indexid" class=""></div>
                                     <!-- <div v-text="book.summary"></div> -->
                                     <b v-on:click="book_detail_vue.update_cur_book(book)" style="color:darkred;float:right">
                                         <i><u>图书详情</u></i>

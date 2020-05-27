@@ -52,7 +52,7 @@ class BookRetrieval:
         return
 
     def updateKGram(self,book):
-        str = book["title"]+  book["title"]+ book["author"]+book["publisher"]+book["summary"]
+        str = book["title"]+  book["subtitle"]+ book["author"]+book["publisher"]+book["summary"]
         # unigram
         l = len(str)
         for i in range(l):
@@ -86,7 +86,7 @@ class BookRetrieval:
         field_name = [field[0] for field in cursor.description]
 
         for item in data:
-            item = dict(zip(field_name, item))
+            item = dict(zip(field_name, item)) #todo
             book = self.myUtf8Decoder(item)
             if book["id"] not in self.id2book:  # 新书，加入查询key
                 self.updateKGram(book)  
